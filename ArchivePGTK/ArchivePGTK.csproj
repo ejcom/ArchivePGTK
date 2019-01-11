@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{664C25C7-D207-46DE-8963-EF63E5780B6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ArchivePGTK</RootNamespace>
+    <AssemblyName>ArchivePGTK</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>опубликовать\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>..\..\..\VsProjects\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>..\..\..\VsProjects\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\..\..\VsProjects\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FAutorisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAutorisation.Designer.cs">
+      <DependentUpon>FAutorisation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCworkmarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCworkmarks.Designer.cs">
+      <DependentUpon>FCworkmarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetMainForm.cs">
+      <DependentUpon>DataSetMainForm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetMainForm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMainForm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FFinalmarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFinalmarks.Designer.cs">
+      <DependentUpon>FFinalmarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FModalDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FModalDialog.Designer.cs">
+      <DependentUpon>FModalDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMain.Designer.cs">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAccounts.Designer.cs">
+      <DependentUpon>FAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGroups.Designer.cs">
+      <DependentUpon>FGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMarktypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMarktypes.Designer.cs">
+      <DependentUpon>FMarktypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPersCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPersCards.Designer.cs">
+      <DependentUpon>FPersCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPerson.Designer.cs">
+      <DependentUpon>FPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPractic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPractic.Designer.cs">
+      <DependentUpon>FPractic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPractNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPractNames.Designer.cs">
+      <DependentUpon>FPractNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPrint.Designer.cs">
+      <DependentUpon>FPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSemesterMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSemesterMarks.Designer.cs">
+      <DependentUpon>FSemesterMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSemesterMissings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSemesterMissings.Designer.cs">
+      <DependentUpon>FSemesterMissings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSpec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSpec.Designer.cs">
+      <DependentUpon>FSpec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSubjectNamesEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSubjectNamesEdit.Designer.cs">
+      <DependentUpon>FSubjectNamesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAutorisation.resx">
+      <DependentUpon>FAutorisation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCworkmarks.resx">
+      <DependentUpon>FCworkmarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFinalmarks.resx">
+      <DependentUpon>FFinalmarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGroups.resx">
+      <DependentUpon>FGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FModalDialog.resx">
+      <DependentUpon>FModalDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMain.resx">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAccounts.resx">
+      <DependentUpon>FAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMarktypes.resx">
+      <DependentUpon>FMarktypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPersCards.resx">
+      <DependentUpon>FPersCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPerson.resx">
+      <DependentUpon>FPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPractic.resx">
+      <DependentUpon>FPractic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPractNames.resx">
+      <DependentUpon>FPractNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPrint.resx">
+      <DependentUpon>FPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSemesterMarks.resx">
+      <DependentUpon>FSemesterMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSemesterMissings.resx">
+      <DependentUpon>FSemesterMissings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSpec.resx">
+      <DependentUpon>FSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSubjectNamesEdit.resx">
+      <DependentUpon>FSubjectNamesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="18052014.backup" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="DataSetMainForm.xsc">
+      <DependentUpon>DataSetMainForm.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMainForm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetMainForm.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetMainForm.xss">
+      <DependentUpon>DataSetMainForm.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="templatediplome.dot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="templatediplome.pdf" />
+    <None Include="templateperscard.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

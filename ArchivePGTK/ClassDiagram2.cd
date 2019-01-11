@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArchivePGTK.DataSetMainForm" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QYSIagEgAwEAAANAJghUUBgQgJgCQxgAQUIgAINgjFE=</HashCode>
+      <FileName>DataSetMainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FAccountsEdit" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAIAAwDIoBAOBcACEIAASAAgAAAAAAAAAAAQBgAQ=</HashCode>
+      <FileName>FAccountsEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FCworkmarks" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABCIIAADAAABCARACAIACCBoIBBAAAALAEAARAgQA=</HashCode>
+      <FileName>FCworkmarks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FFinalmarksAdd" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABBCQIABDAAABCAJBiAIAACBoQBAAAAAKAkAAQAiAE=</HashCode>
+      <FileName>FFinalmarksAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FGroupsEdit" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQRAIAAhDAABAOAIBCEIAASIEAAAAAAAAAAEAQDAAQ=</HashCode>
+      <FileName>FGroupsEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FMarktypesEdit" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAMAAgDAABAOAIACEIAASAAAACAAAAAABAAQBEAA=</HashCode>
+      <FileName>FMarktypesEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FModalDialog" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAABACAAgACEIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FModalDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.Form1" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SyCRZd5SADE4wFKBgUXMJPDW3wwAtQziqN9gWAQdb28=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FPersCards" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIgBQKIBACEAQAAAIJSAAAACKQAYCAABDGACBBSACQA=</HashCode>
+      <FileName>FPersCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FPersonAdd" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgRQIgSiCAApAMAIACEIQASIAAYAAAAwCACEASBAAI=</HashCode>
+      <FileName>FPersonAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FPracticnamesEdit" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAIAAgDAABAOAIACEJQAWAAEAAEAgAAAAAAQBAQA=</HashCode>
+      <FileName>FPracticnamesEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FPrint" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FPrint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FSpec" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACARIYAAgSUIBAOBIACEIAAWAAAAAQAAAAAAAAQBAAQ=</HashCode>
+      <FileName>FSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.FSubjectNamesEdit" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAIAAgCAABAOAKACEIAASAgAAAQBAAAgAAAQBAAI=</HashCode>
+      <FileName>FSubjectNamesEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.Buffer" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataToCB" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.Program" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.cardsTableAdapter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.cworkmarksTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.personsTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.practicmarksTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.semestermarksTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.semestermissingsTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.specialitiesTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.practicnamesTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.schoolsTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.accountsTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.groupsTableAdapter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.subjectnamesTableAdapter" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.remandstatusTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.finalmarksTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.DataSetMainFormTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAmgCAAFABAFBEI0EMQQwEUAChAAAAAQAABAATQU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArchivePGTK.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAQBAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
